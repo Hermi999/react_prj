@@ -11,9 +11,10 @@ var Hello1 = React.createClass({
 
 class Hello2 extends React.Component{
 	render(){
-		return <div>Hello ReactJS with Class</div>;
+		return <div>Hello {this.props.firstname + " " + this.props.lastname}</div>;
 	}
 }
 
 //ReactDOM.render(<Hello1 />, document.getElementById('app'));
-ReactDOM.render(<Hello2 />, document.getElementById('app'));
+ReactDOM.render(<Hello2 firstname="Hermann" lastname="Wagner"/>, 
+				document.getElementById('app'));

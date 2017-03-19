@@ -1,5 +1,5 @@
 {
-  "name": "gh-battle",
+  "name": "PropsAndNesting",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,18 +7,18 @@
     "start": "webpack-dev-server",
     "production": "webpack -p"          
   },
-  "author": "Hermann Wagner <hermann.wagner01@gmx.at> (https://leanstartupsecurity.com)",
+  "author": "Hermann Wagner <hermann.wagner01@gmx.at> (leanstartupsecurity.com)",
   "license": "ISC",
   "dependencies": {
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react": "*",
+    "react-dom": "*"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
     "babel-preset-react": "^6.3.13",
     "html-webpack-plugin": "^2.7.1",
-    "webpack": "^1.12.11",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
   }
 }
